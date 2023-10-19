@@ -1,7 +1,3 @@
-import Image from "next/image";
-import logo from "../../public/logo/pm-logos-black.png";
-import bars from "../../public/icons/bars.svg";
-import instagram from "../../public/icons/instagram.svg";
 import Header from "./components/header"
 import Footer from "./components/footer";
 
