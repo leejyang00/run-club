@@ -14,9 +14,9 @@ const Header: React.FC = () => {
         <Image src={logo} width={100} alt="Pace Mates" priority />
       </div>
       <div className="hidden md:flex space-x-12">
-        <button className="hover:underline">About</button>
-        <button className="hover:underline">Merch</button>
-        <button className="hover:underline">Run</button>
+        <button className="hover:underline w-14">About</button>
+        <button className="hover:underline w-14">Merch</button>
+        <button className="hover:underline w-14">Run</button>
       </div>
       <div className="hidden md:flex justify-center items-center space-x-8">
         <button>
