@@ -6,7 +6,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col">
       <Header />
       <div className="text-sm sm:text-base space-y-5 flex flex-col flex-grow justify-center items-center text-center">
-        <div>24 . 10 . 24</div>
+        <div>24 . 10 . 23</div>
         <div>BRISBANE SIGN, South Brisbane QLD 4101</div>
         <div>7 pm</div>
         <div>
