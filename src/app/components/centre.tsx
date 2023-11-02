@@ -13,10 +13,8 @@ const Centre: React.FC = () => {
           <Image src={PMRC3} width={600} alt="PMRC-3" priority />
         </div>
 
-
         <div className="space-y-3">
           <div>07 . 11 . 23</div>
-          {/* <div>7 pm</div> */}
           <div>7PM @ BRISBANE SIGN, South Brisbane</div>
           <div>3km - Henry</div>
           <div>
@@ -43,7 +41,6 @@ const Centre: React.FC = () => {
 
         <div className="space-y-3">
           <div>31 . 10 . 23</div>
-          {/* <div>7 pm</div> */}
           <div>7PM @ BRISBANE SIGN, South Brisbane</div>
           <div>3km - Henry</div>
           <div>5km - Jian</div>
@@ -67,7 +64,6 @@ const Centre: React.FC = () => {
         <div className="space-y-3">
           <p>24 . 10 . 23</p>
           <p>7PM @ BRISBANE SIGN, South Brisbane</p>
-          {/* <p>7 pm</p> */}
           <div>
             <a
               href="https://www.mapmyrun.com/routes/view/5789592190/"
