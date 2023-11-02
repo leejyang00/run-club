@@ -13,7 +13,7 @@ const Header: React.FC = () => {
       <div>
         <Image src={logo} width={100} alt="Pace Mates" priority />
       </div>
-      <div className="hidden md:flex space-x-12">
+      <div className="hidden md:flex space-x-12 text-sm">
         <button className="hover:underline w-14">About</button>
         <button className="hover:underline w-14">Merch</button>
         <button className="hover:underline w-14">Run</button>
