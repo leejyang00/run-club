@@ -21,7 +21,7 @@ const Centre: React.FC = () => {
               <div>{item.date}</div>
               <div>{item.location}</div>
               {item.events.map((event) => (
-                <div>{event}</div>
+                <div key={event}>{event}</div>
               ))}
               <div>
                 <a
