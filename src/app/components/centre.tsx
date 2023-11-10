@@ -35,7 +35,7 @@ const Centre: React.FC = () => {
               </div>
             </div>
           </div>
-          {index !== events.length - 1 && <DividerLine />}s
+          {index !== events.length - 1 && <DividerLine />}
         </>
       ))}
     </div>
