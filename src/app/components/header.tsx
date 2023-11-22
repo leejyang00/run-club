@@ -55,7 +55,7 @@ const Header = (): JSX.Element => {
       </div>
 
       {/* Mobile Drawer */}
-      <div className="md:hidden flex justify-center items-center mr-3">
+      <div className="md:hidden flex justify-center items-center">
         <LeftSideDrawer />
       </div>
     </nav>
