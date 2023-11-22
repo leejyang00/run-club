@@ -1,7 +1,7 @@
-import Centre from "./components/Centre";
+import Centre from "./components/centre";
 import InfoBar from "./common/InfoBar";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (

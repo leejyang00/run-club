@@ -9,8 +9,8 @@ import LeftSideDrawer from "./LeftSideDrawer";
 import { Divider } from "@mui/material";
 import dynamic from "next/dynamic";
 
-const NavLink = dynamic(() => import("../components/NavLink"), { ssr: false });
-const SocialLink = dynamic(() => import("../components/SocialLink"), {
+const NavLink = dynamic(() => import("./NavLink"), { ssr: false });
+const SocialLink = dynamic(() => import("./SocialLink"), {
   ssr: false,
 });
 
