@@ -7,7 +7,7 @@ import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
 
-const LeftSideDrawer: React.FC = () => {
+const LeftSideDrawer = (): JSX.Element => {
   const [active, setActive] = useState(false);
 
   return (
@@ -25,7 +25,7 @@ const LeftSideDrawer: React.FC = () => {
         open={active}
         onClose={() => setActive(false)}
         PaperProps={{
-          sx: { width: "100%", paddingX: 2 },
+          sx: { width: "100%", paddingX: 2, backgroundColor: '#FFFFF4' },
         }}
       >
         <div className="min-h-screen flex flex-col">
@@ -36,9 +36,9 @@ const LeftSideDrawer: React.FC = () => {
             </Button>
           </div>
           <div className="flex flex-col flex-grow justify-center items-center space-y-8 text-2xl">
-            <p>ABOUT US</p>
-            <p>MERCH</p>
-            <p>RUN</p>
+            <p>HOME</p>
+            <p>THE PACEMATES STORY</p>
+            <p>RUNS</p>
           </div>
           <div className="py-14 flex justify-center items-center space-x-8">
             <button>

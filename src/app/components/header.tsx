@@ -5,31 +5,56 @@ import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
 
-import LeftSideDrawer from "./leftSideDrawer";
+import LeftSideDrawer from "./LeftSideDrawer";
+import { Divider } from "@mui/material";
+import dynamic from "next/dynamic";
 
-const Header: React.FC = () => {
+const NavLink = dynamic(() => import("../components/NavLink"), { ssr: false });
+const SocialLink = dynamic(() => import("../components/SocialLink"), {
+  ssr: false,
+});
+
+const Header = (): JSX.Element => {
   return (
-    <nav className="flex justify-between px-2 py-0 sm:py-5 sm:px-28 w-full">
+    <nav className="flex justify-between px-2 sm:px-2 md:px-30 lg:px-40 xl:px-52 py-2 sm:py-3 w-full bg-[#FFFFF4] border-b shrink">
+      {/* Logo */}
       <div>
-        <Image src={logo} width={100} alt="Pace Mates" priority />
+        <Image src={logo} width={70} alt="Pace Mates" />
       </div>
-      <div className="hidden md:flex space-x-12 text-sm">
-        <button className="hover:underline w-14">About</button>
-        <button className="hover:underline w-14">Merch</button>
-        <button className="hover:underline w-14">Run</button>
+
+      {/* Navigation Links */}
+      <div className="hidden md:flex text-xs justify-center items-center space-x-8">
+        {/* TBD: update the react routing section for SSR and client-side */}
+        <NavLink href="/" text="HOME" />
+        <NavLink href="/" text="THE PACEMATES STORY" /> 
+        <NavLink href="/" text="RUNS" />
       </div>
-      <div className="hidden md:flex justify-center items-center space-x-8">
-        <button>
-          <a href="https://www.instagram.com/pacematesrunclub/" target="_blank">
-            <Image src={instagram} width={25} alt="instagram" priority />
-          </a>
-        </button>
-        <button>
-          <a href="https://www.strava.com/clubs/pacematesrunclub" target="_blank">
-            <Image src={strava} width={25} alt="instagram" priority />
-          </a>
-        </button>
+
+      {/* Social Links */}
+      <div className="hidden md:flex justify-between items-center space-x-8">
+        <Divider
+          variant="middle"
+          orientation="vertical"
+          sx={{
+            maxHeight: "50%",
+            marginRight: "30px",
+            display: "flex",
+            justifyItems: "start",
+          }}
+        />
+        <SocialLink
+          href="https://www.instagram.com/pacematesrunclub/"
+          image={instagram}
+          alt="Instagram"
+        />
+        <SocialLink
+          href="https://www.strava.com/clubs/pacematesrunclub"
+          image={strava}
+          alt="Strava"
+        />
       </div>
+
+      {/* Mobile Drawer */}
       <div className="md:hidden flex justify-center items-center mr-3">
         <LeftSideDrawer />
       </div>

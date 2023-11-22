@@ -1,24 +1,30 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import InfoBar from "./common/InfoBar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Pace Mates Run Club',
-  description: 'Your pace, our family.',
-}
+  title: "PaceMates Run Club",
+  description: "Pacing Together, Creating Stories",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">  
+    <html lang="en">
       <body className={inter.className} suppressHydrationWarning={true}>
+        <InfoBar />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
-  )
+  );
 }
