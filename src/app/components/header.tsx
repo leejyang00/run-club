@@ -5,7 +5,7 @@ import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
 
-import LeftSideDrawer from "./LeftSideDrawer";
+import LeftSideDrawer from "./leftSideDrawer";
 import { Divider } from "@mui/material";
 import dynamic from "next/dynamic";
 
