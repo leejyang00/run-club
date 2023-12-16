@@ -1,4 +1,5 @@
-import { Link } from "@mui/material";
+// import { Link } from "@mui/material";
+import Link from 'next/link'
 
 interface NavLinkProps {
   href: string;
@@ -10,7 +11,7 @@ const NavLink = (props: NavLinkProps): JSX.Element => {
 
   return (
     <Link href={href} color={"rgba(#000000)"}>
-      <a className="hover:underline w-fit">{text}</a>
+      <p className="hover:underline w-fit">{text}</p>
     </Link>
   );
 };

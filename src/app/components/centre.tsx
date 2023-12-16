@@ -6,8 +6,8 @@ const Centre = (): JSX.Element => {
   return (
     <div className="flex flex-col flex-grow items-center justify-center pb-6 pt-3 bg-[#F8F6F0]">
       {events.map((item, index) => (
-        <>
-          <div key={item.id} className="text-xs sm:text-sm space-y-5 flex flex-col justify-center items-center text-center">
+        <div key={item.id}>
+          <div className="text-xs sm:text-sm space-y-5 flex flex-col justify-center items-center text-center">
             <div className="font-bold">{item.id}</div>
 
             <div className="w-3/4">
@@ -35,7 +35,7 @@ const Centre = (): JSX.Element => {
             </div>
           </div>
           {index !== events.length - 1 && <DividerLine orientation={'horizontal'} />}
-        </>
+        </div>
       ))}
     </div>
   );

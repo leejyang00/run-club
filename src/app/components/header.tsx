@@ -5,7 +5,7 @@ import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
 
-import LeftSideDrawer from "./leftSideDrawer";
+import LeftSideDrawer from "./LeftSideDrawer";
 import { Divider } from "@mui/material";
 import dynamic from "next/dynamic";
 
@@ -26,7 +26,7 @@ const Header = (): JSX.Element => {
       <div className="hidden md:flex text-xs justify-center items-center space-x-8">
         {/* TBD: update the react routing section for SSR and client-side */}
         <NavLink href="/" text="HOME" />
-        <NavLink href="/" text="THE PACEMATES STORY" /> 
+        <NavLink href="/about" text="THE PACEMATES STORY" />
         <NavLink href="/" text="RUNS" />
       </div>
 
