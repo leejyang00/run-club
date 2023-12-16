@@ -6,6 +6,7 @@ import xmark from "../../../public/icons/xmark.svg";
 import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
+import dynamic from "next/dynamic";
 
 const LeftSideDrawer = (): JSX.Element => {
   const [active, setActive] = useState(false);
@@ -36,9 +37,16 @@ const LeftSideDrawer = (): JSX.Element => {
             </Button>
           </div>
           <div className="flex flex-col flex-grow justify-center items-center space-y-8 text-2xl">
-            <p>HOME</p>
-            <p>THE PACEMATES STORY</p>
-            <p>RUNS</p>
+            {/* use a href to close the navigation tab */}
+            <a href="/" color={"rgba(#000000)"}>
+              HOME
+            </a>
+            <a href="/story" color={"rgba(#000000)"}>
+              THE PACEMATES STORY
+            </a>
+            <a href="/" color={"rgba(#000000)"}>
+              RUNS
+            </a>
           </div>
           <div className="py-14 flex justify-center items-center space-x-8">
             <button>

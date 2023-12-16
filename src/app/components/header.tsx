@@ -4,12 +4,11 @@ import Image from "next/image";
 import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
-
+import Link from 'next/link'
 import LeftSideDrawer from "./LeftSideDrawer";
 import { Divider } from "@mui/material";
 import dynamic from "next/dynamic";
 
-const NavLink = dynamic(() => import("./NavLink"), { ssr: false });
 const SocialLink = dynamic(() => import("./SocialLink"), {
   ssr: false,
 });
@@ -25,9 +24,15 @@ const Header = (): JSX.Element => {
       {/* Navigation Links */}
       <div className="hidden md:flex text-xs justify-center items-center space-x-8">
         {/* TBD: update the react routing section for SSR and client-side */}
-        <NavLink href="/" text="HOME" />
-        <NavLink href="/about" text="THE PACEMATES STORY" />
-        <NavLink href="/" text="RUNS" />
+        <Link href="/" color={"rgba(#000000)"}>
+          <p className="hover:underline w-fit">HOME</p>
+        </Link>
+        <Link href="/story" color={"rgba(#000000)"}>
+          <p className="hover:underline w-fit">THE PACEMATES STORY</p>
+        </Link>
+        <Link href="/" color={"rgba(#000000)"}>
+          <p className="hover:underline w-fit">RUNS</p>
+        </Link>
       </div>
 
       {/* Social Links */}

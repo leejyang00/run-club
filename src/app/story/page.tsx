@@ -12,13 +12,13 @@ export const metadata: Metadata = {
 export default function About() {
     return (
         <>
-            <div className="flex flex-col flex-grow items-center justify-center pb-6 pt-3 bg-[#F8F6F0]">
-                <Typography variant="h1" gutterBottom>
+            <div className="flex flex-col flex-grow items-center justify-center pb-sm-6 pt-sm-3 bg-[#F8F6F0]">
+                <h1 className="text-7xl text-primary pb-6">
                     The Pacemates Story
-                </Typography>
-                <Typography variant="body1">
+                </h1>
+                <p className="text-base">
                     This is the content for "THE PACEMATES STORY" page.
-                </Typography>
+                </p>
             </div>
         </>
     );
