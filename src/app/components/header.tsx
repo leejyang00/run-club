@@ -27,7 +27,7 @@ const Header = (): JSX.Element => {
         {/* TBD: update the react routing section for SSR and client-side */}
         <NavLink href="/" text="HOME" />
         <NavLink href="/story" text="THE PACEMATES STORY" /> 
-        <NavLink href="/" text="RUNS" />
+        <NavLink href="/runs" text="RUNS" />
       </div>
 
       {/* Social Links */}

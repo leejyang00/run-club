@@ -2,10 +2,6 @@ import { Typography } from "@mui/material";
 import { Metadata } from "next";
 import React from "react";
 
-// export const metadata: Metadata = {
-//   title: 'Next.js',
-// }
-
 export const metadata: Metadata = {
   title: "Pacemates - Our Story",
   description: "Pacing Together, Creating Stories",
