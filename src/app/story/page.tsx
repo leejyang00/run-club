@@ -1,6 +1,6 @@
 // pages/about.js
 // import Layout from "../components/Layout"
-import { Typography } from "@mui/material";
+// import { Typography } from "@mui/material";
 import { Metadata } from "next";
 import React from "react";
 
@@ -17,7 +17,7 @@ export default function About() {
                     The Pacemates Story
                 </h1>
                 <p className="text-base">
-                    This is the content for "THE PACEMATES STORY" page.
+                    This is the content for &quot;THE PACEMATES STORY&quot; page.
                 </p>
             </div>
         </>
