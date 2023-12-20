@@ -1,6 +1,3 @@
-// pages/about.js
-// import Layout from "../components/Layout"
-// import { Typography } from "@mui/material";
 import { Metadata } from "next";
 import React from "react";
 

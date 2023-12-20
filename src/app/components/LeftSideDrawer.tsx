@@ -44,7 +44,7 @@ const LeftSideDrawer = (): JSX.Element => {
             <a href="/story" color={"rgba(#000000)"}>
               THE PACEMATES STORY
             </a>
-            <a href="/" color={"rgba(#000000)"}>
+            <a href="/runs" color={"rgba(#000000)"}>
               RUNS
             </a>
           </div>
