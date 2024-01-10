@@ -51,8 +51,8 @@ const CalendarCell = (props: CalendarCellProps): JSX.Element => {
                                         <Typography id="modal-modal-title" variant="h4" component="h1" className="mb-5 text-center md:text-left">
                                             {item.event}
                                         </Typography>
-                                        <div className="mb-5 w-48 block mx-auto md:hidden">
-                                            <img src={item.src} alt={item.event} />
+                                        <div className="mb-5 w-fit block mx-auto md:hidden">
+                                            <Image src={item.src} alt={item.event} width={200} height={100} />
                                         </div>
                                         <div className="flex flex-col items-center md:flex-row">
                                             <CalendarIcon month={month} date={cell.getDate()} day={cell.getDay()} />
@@ -66,7 +66,7 @@ const CalendarCell = (props: CalendarCellProps): JSX.Element => {
                                                     <span className="text-gray-500">{item.event}</span>
                                                 </Typography>
                                                 <Typography id="modal-modal-title" component="h6">
-                                                    Ready up and let's get running 🏃
+                                                    Ready up and let's get running &#127939;
                                                 </Typography>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ const CalendarCell = (props: CalendarCellProps): JSX.Element => {
                                         <Button variant="contained" className="bg-cyan-700 max-w-fit m-0 hover:bg-cyan-700 md:mr-5">Route</Button>
                                     </a>
                                     <div className="w-fit mt-2 md:m-0">
-                                        <img src="icons/mapmyrun.png" alt={item.event} />
+                                        <Image src="/icons/mapmyrun.png" alt={item.event} width={200} height={100} />
                                     </div>
                                 </div>
                             </div>
