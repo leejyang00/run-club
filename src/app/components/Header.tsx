@@ -30,7 +30,7 @@ const Header = (): JSX.Element => {
         <Link href="/story" color={"rgba(#000000)"}>
           <p className="hover:underline w-fit">THE PACEMATES STORY</p>
         </Link>
-        <Link href="/" color={"rgba(#000000)"}>
+        <Link href="/runs" color={"rgba(#000000)"}>
           <p className="hover:underline w-fit">RUNS</p>
         </Link>
       </div>

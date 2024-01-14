@@ -17,7 +17,7 @@ const Centre = (): JSX.Element => {
             </div>
 
             <div className="space-y-3">
-              <div>{item.date}</div>
+              <div>{item.date}-{item.month}-{item.year}</div>
               <div>{item.location}</div>
               {item.events.map((event) => (
                 <div key={event}>{event}</div>

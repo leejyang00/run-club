@@ -6,7 +6,6 @@ import xmark from "../../../public/icons/xmark.svg";
 import logo from "../../../public/logo/pm-logos-black.png";
 import instagram from "../../../public/icons/instagram.svg";
 import strava from "../../../public/icons/strava.svg";
-import dynamic from "next/dynamic";
 
 const LeftSideDrawer = (): JSX.Element => {
   const [active, setActive] = useState(false);
@@ -44,7 +43,7 @@ const LeftSideDrawer = (): JSX.Element => {
             <a href="/story" color={"rgba(#000000)"}>
               THE PACEMATES STORY
             </a>
-            <a href="/" color={"rgba(#000000)"}>
+            <a href="/runs" color={"rgba(#000000)"}>
               RUNS
             </a>
           </div>

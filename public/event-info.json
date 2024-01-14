@@ -2,61 +2,85 @@
     {
         "id": "PMRC-6",
         "src": "/event-photo/PMRC-6.JPG",
-        "date": "28 . 11 . 23 ",
+        "date": 28,
+        "month": 11,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [
             "5km - Jian"
         ],
+        "description": "A Tuesday event designed for everyone, welcoming any pace, any race, and any face. \n Please refer to our Instagram (@pacematesrunclub), weekly posts, or WhatsApp group for the latest timings and locations.\n\nOur fantastic Run Club community leaders guide the 5km runs, with groups starting at various paces, exploring some of Brisbane’s most iconic sights. No participant is left behind, you can run at any pace you prefer—no pace is too slow. Join our WhatsApp group at https://pacemates.komi.io/",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     },
     {
         "id": "PMRC-5",
         "src": "/event-photo/PMRC-5.png",
-        "date": "21 . 11 . 23 ",
+        "date": 21,
+        "month": 11,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [
             "5km - Jian"
         ],
+        "description": "",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     },
     {
         "id": "PMRC-4",
         "src": "/event-photo/PMRC-4.png",
-        "date": "14 . 11 . 23 ",
+        "date": 14,
+        "month": 11,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [
             "3km - Henry",
             "5km - Jian"
         ],
+        "description": "",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     },
     {
         "id": "PMRC-3",
         "src": "/event-photo/PMRC-3.png",
-        "date": "07 . 11 . 23 ",
+        "date": 7,
+        "month": 11,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [
             "3km - Henry"
         ],
+        "description": "",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     },
     {
         "id": "PMRC-2",
         "src": "/event-photo/PMRC-2.png",
-        "date": "31 . 10 . 23 ",
+        "date": 31,
+        "month": 10,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [
             "3km - Henry",
             "5km - Jian"
         ],
+        "description": "",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     },
     {
         "id": "PMRC-1",
-        "src": "",
-        "date": "24 . 10 . 23 ",
+        "src": "/event-photo/PMRC-2.png",
+        "date": 24,
+        "month": 10,
+        "year": 2023,
         "location": "7PM @ BRISBANE SIGN, South Brisbane",
+        "time": "7:00 PM",
         "events": [],
+        "description": "",
         "route": "https://www.mapmyrun.com/routes/view/5789592190/"
     }
 ]
